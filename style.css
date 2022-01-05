@@ -16,7 +16,7 @@ section{
 .half-width img{
     width: 80%;
 }
-.header{
+.header-bio{
     padding-left: 5%;
 }
 a{
@@ -26,4 +26,49 @@ a{
     font-size: 20px;
     background-color: tomato;
     color: white;
+}
+.header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    padding-left: 5%;
+}
+h3{
+    font-size: 40px;
+}
+.box{
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-left: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 5px solid tomato;
+}
+.box1{
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-left: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.main{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.h2{
+    color: orange;
+}
+.footer{
+    text-align: center;
+    margin-top: 15%;
 }
